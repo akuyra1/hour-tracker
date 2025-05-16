@@ -1,5 +1,7 @@
 // # Custom App component (handles auth and layout)
 
+// # Custom App component (handles auth and layout)
+
 import { useState, useEffect } from 'react';
 import { supabase } from '../lib/supabase';
 import { AppProps } from 'next/app';
