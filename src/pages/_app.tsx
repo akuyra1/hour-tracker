@@ -86,7 +86,7 @@ function Dashboard({ user }: { user: User }) {
   );
 }
 
-export default function App(props: AppProps) {
+export default function MyApp({ Component, pageProps }: AppProps) {
   const [user, setUser] = useState<User>(null);
   const router = useRouter();
 
